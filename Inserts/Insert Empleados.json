@@ -1,0 +1,1305 @@
+db.Empleado.insertMany([
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb04'), nombre: "Juan",
+apellidos: "Pérez",
+genero: "M",
+rfc: "ABCD123456XY7",
+clabeinterbancaria: "987654321012345678",
+curp: "ABCD123456HMXYZAB5",
+telefono: 1234567890,
+correo: "juan.perez@example.com",
+direccion: {
+calle: "Calle 1",
+numext: 123,
+numint: 1,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195b'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011948')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb05'), nombre: "María",
+apellidos: "González",
+genero: "F",
+rfc: "EFGH987654ABC32101",
+clabeinterbancaria: "543210987654321098",
+curp: "EFGH987654MFABCXY6",
+telefono: 987654321,
+correo: "maria.gonzalez@example.com",
+direccion: {
+calle: "Avenida 2",
+numext: 456,
+numint: 2,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 54321
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195c'),
+//YA ESTA
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194c')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb06'), nombre: "Ana",
+apellidos: "Martínez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "ana.martinez@example.com",
+direccion: {
+calle: "Calle 3",
+numext: 789,
+numint: 3,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 67890
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195c'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011958')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb07'), nombre: "Carl",
+apellidos: "López",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "carlos.lopez@example.com",
+direccion: {
+calle: "Avenida 4",
+numext: 1011,
+numint: 4,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01195c'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011959')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb08'), nombre: "Elena",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "elena.ramirez@example.com",
+direccion: {
+calle: "Calle 5",
+numext: 101,
+numint: 5,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 89012
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195d'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb09'), nombre: "Roberto",
+apellidos: "Díaz",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "roberto.diaz@example.com",
+direccion: {
+calle: "Avenida 6",
+numext: 1112,
+numint: 6,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195d'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011956')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb0a'), nombre: "Alejandro",
+apellidos: "Gómez",
+genero: "M",
+rfc: "WXYZ567890ABCD1234",
+clabeinterbancaria: "345678901234567890",
+curp: "WXYZ567890HMABCDXY9",
+telefono: 5559876543,
+correo: "alejandro.gomez@example.com",
+direccion: {
+calle: "Calle 7",
+numext: 212,
+numint: 7,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01195d'),
+departamentoIddepartamento:	ObjectId('65a173694032f6aaad01194b')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb0b'), nombre: "Isabel",
+apellidos: "López",
+genero: "F",
+rfc: "QRST123456UVWX7890",
+clabeinterbancaria: "901234567890123456",
+curp: "QRST123456MFUVWXAB1",
+telefono: 5558765432,
+correo: "isabel.lopez@example.com",
+direccion: {
+calle: "Avenida 9",
+numext: 1314,
+numint: 9,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 78901
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195e'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+//YA ESTA
+_id: ObjectId('65a1cad71a9eb4abf117cb0c'), nombre: "Sofía",
+apellidos: "Rodríguez",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "sofia.rodriguez@example.com",
+direccion: {
+calle: "Calle 11",
+numext: 1516,
+numint: 11,
+colonia: "Colonia Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195e'),
+//YA ESTA
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011948')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb0d'), nombre: "Hugo",
+apellidos: "Martín",
+genero: "M",
+rfc: "TUVW123456XYZA7890",
+clabeinterbancaria: "789012345678901234",
+curp: "TUVW123456HMXYZAB3",
+telefono: 5556543210,
+correo: "hugo.martin@example.com",
+direccion: {
+calle: "Avenida 13",
+numext: 1718,
+numint: 13,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195e'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01195a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb0e'), nombre: "Luisa",
+apellidos: "Fernández",
+genero: "F",
+rfc: "UVWXYZ123456ABCDEF",
+clabeinterbancaria: "123456789012345678",
+curp: "UVWXYZ123456FMABCDE9",
+telefono: 5551122333,
+correo: "luisa.fernandez@example.com",
+direccion: {
+calle: "Calle 15",
+numext: 1920,
+numint: 15,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01195f'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb0f'), nombre: "Gabriel",
+apellidos: "Ramos",
+genero: "M",
+rfc: "GHIJ678901KLMN2345",
+clabeinterbancaria: "901234567890123456",
+curp: "GHIJ678901HMNKLXY1",
+telefono: 5554455666,
+correo: "gabriel.ramos@example.com",
+direccion: {
+calle: "Avenida 17",
+numext: 2122,
+numint: 17,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011960'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194d')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb10'), nombre: "Daniel",
+apellidos: "García",
+genero: "M",
+rfc: "DEFG123456HIJK7890",
+clabeinterbancaria: "987654321098765432",
+curp: "DEFG123456HMJKLXY3",
+telefono: 5559876543,
+correo: "daniel.garcia@example.com",
+direccion: {
+calle: "Calle 19",
+numext: 2324,
+numint: 19,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011960'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194f')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb11'), nombre: "Laura",
+apellidos: "Hernández",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "laura.hernandez@example.com",
+direccion: {
+calle: "Avenida 21",
+numext: 2526,
+numint: 21,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011960'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011950')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb12'), nombre: "Alejandra",
+apellidos: "López",
+genero: "F",
+rfc: "ALOP123456XYZ78901",
+clabeinterbancaria: "123456789012345678",
+curp: "ALOP123456FMXYZAB4",
+telefono: 5558889999,
+correo: "alejandra.lopez@example.com",
+direccion: {
+calle: "Calle 23",
+numext: 2728,
+numint: 23,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011960'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011953')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb13'), nombre: "Adrián",
+apellidos: "Martínez",
+genero: "M",
+rfc: "ADMT123456RSTU7890",
+clabeinterbancaria: "901234567890123456",
+curp: "ADMT123456HMSTUAB2",
+telefono: 5557778888,
+correo: "adrian.martinez@example.com",
+direccion: {
+calle: "Avenida 25",
+numext: 2930,
+numint: 25,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011961'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb14'), nombre: "Carlos",
+apellidos: "Sánchez",
+genero: "M",
+rfc: "CSAN123456ABCD7890",
+clabeinterbancaria: "123456789012345678",
+curp: "CSAN123456HMABCDXY1",
+telefono: 5556667777,
+correo: "carlos.sanchez@example.com",
+direccion: {
+calle: "Calle 27",
+numext: 3132,
+numint: 27,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011961'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194e')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb15'), nombre: "Laura",
+apellidos: "Gómez",
+genero: "F",
+rfc: "LGOM123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "LGOM123456FMQRSXY3",
+telefono: 5558889999,
+correo: "laura.gomez@example.com",
+direccion: {
+calle: "Avenida 29",
+numext: 3334,
+numint: 29,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011961'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011952')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb16'), nombre: "Paola",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "PRAM123456UVWX7890",
+clabeinterbancaria: "123456789012345678",
+curp: "PRAM123456FMUVWXY1",
+telefono: 5551234567,
+correo: "paola.ramirez@example.com",
+direccion: {
+calle: "Calle 31",
+numext: 3536,
+numint: 31,
+colonia: "Santa Fe",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011962'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+//YA ESTA
+_id: ObjectId('65a1cad71a9eb4abf117cb17'), nombre: "Javier",
+apellidos: "Martínez",
+genero: "M",
+rfc: "JMAR123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "JMAR123456HMQRSXY2",
+telefono: 5552345678,
+correo: "javier.martinez@example.com",
+direccion: {
+calle: "Avenida 33",
+numext: 3738,
+numint: 33,
+colonia: "Napoles",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011962'),
+//YA ESTA
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011948')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb18'), nombre: "Juan",
+apellidos: "Pérez",
+genero: "M",
+rfc: "ABCD123456XY7",
+clabeinterbancaria: "987654321012345678",
+curp: "ABCD123456HMXYZAB5",
+telefono: 1234567890,
+correo: "juan.perez@example.com",
+direccion: {
+calle: "Calle 1",
+numext: 123,
+numint: 1,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011962'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011950')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb19'), nombre: "María",
+apellidos: "González",
+genero: "F",
+rfc: "EFGH987654ABC32101",
+clabeinterbancaria: "543210987654321098",
+curp: "EFGH987654MFABCXY6",
+telefono: 987654321,
+correo: "maria.gonzalez@example.com",
+direccion: {
+calle: "Avenida 2",
+numext: 456,
+numint: 2,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 54321
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011963'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb1a'), nombre: "Ana",
+apellidos: "Martínez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "ana.martinez@example.com",
+direccion: {
+calle: "Calle 3",
+numext: 789,
+numint: 3,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 67890
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011963'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011949')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb1b'), nombre: "Carl",
+apellidos: "López",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "carlos.lopez@example.com",
+direccion: {
+calle: "Avenida 4",
+numext: 1011,
+numint: 4,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011963'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01195a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb1c'), nombre: "Elena",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "elena.ramirez@example.com",
+direccion: {
+calle: "Calle 5",
+numext: 101,
+numint: 5,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 89012
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011956')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb1d'), nombre: "Roberto",
+apellidos: "Díaz",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "roberto.diaz@example.com",
+direccion: {
+calle: "Avenida 6",
+numext: 1112,
+numint: 6,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011959')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb1e'), nombre: "Alejandro",
+apellidos: "Gómez",
+genero: "M",
+rfc: "WXYZ567890ABCD1234",
+clabeinterbancaria: "345678901234567890",
+curp: "WXYZ567890HMABCDXY9",
+telefono: 5559876543,
+correo: "alejandro.gomez@example.com",
+direccion: {
+calle: "Calle 7",
+numext: 212,
+numint: 7,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01196b'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011955')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb1f'), nombre: "Isabel",
+apellidos: "López",
+genero: "F",
+rfc: "QRST123456UVWX7890",
+clabeinterbancaria: "901234567890123456",
+curp: "QRST123456MFUVWXAB1",
+telefono: 5558765432,
+correo: "isabel.lopez@example.com",
+direccion: {
+calle: "Avenida 9",
+numext: 1314,
+numint: 9,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 78901
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01196b'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194f')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb20'), nombre: "Sofía",
+apellidos: "Rodríguez",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "sofia.rodriguez@example.com",
+direccion: {
+calle: "Calle 11",
+numext: 1516,
+numint: 11,
+colonia: "Colonia Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01195a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb21'), nombre: "Hugo",
+apellidos: "Martín",
+genero: "M",
+rfc: "TUVW123456XYZA7890",
+clabeinterbancaria: "789012345678901234",
+curp: "TUVW123456HMXYZAB3",
+telefono: 5556543210,
+correo: "hugo.martin@example.com",
+direccion: {
+calle: "Avenida 13",
+numext: 1718,
+numint: 13,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011965'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb22'), nombre: "Luisa",
+apellidos: "Fernández",
+genero: "F",
+rfc: "UVWXYZ123456ABCDEF",
+clabeinterbancaria: "123456789012345678",
+curp: "UVWXYZ123456FMABCDE9",
+telefono: 5551122333,
+correo: "luisa.fernandez@example.com",
+direccion: {
+calle: "Calle 15",
+numext: 1920,
+numint: 15,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011965'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb23'), nombre: "Gabriel",
+apellidos: "Ramos",
+genero: "M",
+rfc: "GHIJ678901KLMN2345",
+clabeinterbancaria: "901234567890123456",
+curp: "GHIJ678901HMNKLXY1",
+telefono: 5554455666,
+correo: "gabriel.ramos@example.com",
+direccion: {
+calle: "Avenida 17",
+numext: 2122,
+numint: 17,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01196b'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011958')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb24'), nombre: "Daniel",
+apellidos: "García",
+genero: "M",
+rfc: "DEFG123456HIJK7890",
+clabeinterbancaria: "987654321098765432",
+curp: "DEFG123456HMJKLXY3",
+telefono: 5559876543,
+correo: "daniel.garcia@example.com",
+direccion: {
+calle: "Calle 19",
+numext: 2324,
+numint: 19,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011957')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb25'), nombre: "Laura",
+apellidos: "Hernández",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "laura.hernandez@example.com",
+direccion: {
+calle: "Avenida 21",
+numext: 2526,
+numint: 21,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011956')
+},
+{
+//YA ESTA
+_id: ObjectId('65a1cad71a9eb4abf117cb26'), nombre: "Alejandra",
+apellidos: "López",
+genero: "F",
+rfc: "ALOP123456XYZ78901",
+clabeinterbancaria: "123456789012345678",
+curp: "ALOP123456FMXYZAB4",
+telefono: 5558889999,
+correo: "alejandra.lopez@example.com",
+direccion: {
+calle: "Calle 23",
+numext: 2728,
+numint: 23,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011966'),
+//YA ESTA
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011948')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb27'), nombre: "Adrián",
+apellidos: "Martínez",
+genero: "M",
+rfc: "ADMT123456RSTU7890",
+clabeinterbancaria: "901234567890123456",
+curp: "ADMT123456HMSTUAB2",
+telefono: 5557778888,
+correo: "adrian.martinez@example.com",
+direccion: {
+calle: "Avenida 25",
+numext: 2930,
+numint: 25,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011966'),
+departamentoIddepartamento:	ObjectId('65a173694032f6aaad011952')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb28'), nombre: "Carlos",
+apellidos: "Sánchez",
+genero: "M",
+rfc: "CSAN123456ABCD7890",
+clabeinterbancaria: "123456789012345678",
+curp: "CSAN123456HMABCDXY1",
+telefono: 5556667777,
+correo: "carlos.sanchez@example.com",
+direccion: {
+calle: "Calle 27",
+numext: 3132,
+numint: 27,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011966'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011952')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb29'), nombre: "Laura",
+apellidos: "Gómez",
+genero: "F",
+rfc: "LGOM123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "LGOM123456FMQRSXY3",
+telefono: 5558889999,
+correo: "laura.gomez@example.com",
+direccion: {
+calle: "Avenida 29",
+numext: 3334,
+numint: 29,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011960'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194f')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb2a'), nombre: "Paola",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "PRAM123456UVWX7890",
+clabeinterbancaria: "123456789012345678",
+curp: "PRAM123456FMUVWXY1",
+telefono: 5551234567,
+correo: "paola.ramirez@example.com",
+direccion: {
+calle: "Calle 31",
+numext: 3536,
+numint: 31,
+colonia: "Santa Fe",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011962'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01195a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb2b'), nombre: "Javier",
+apellidos: "Martínez",
+genero: "M",
+rfc: "JMAR123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "JMAR123456HMQRSXY2",
+telefono: 5552345678,
+correo: "javier.martinez@example.com",
+direccion: {
+calle: "Avenida 33",
+numext: 3738,
+numint: 33,
+colonia: "Napoles",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011962'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194f')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb2c'), nombre: "Juan",
+apellidos: "Pérez",
+genero: "M",
+rfc: "ABCD123456XY7",
+clabeinterbancaria: "987654321012345678",
+curp: "ABCD123456HMXYZAB5",
+telefono: 1234567890,
+correo: "juan.perez@example.com",
+direccion: {
+calle: "Calle 1",
+numext: 123,
+numint: 1,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011969'),
+"departamentoIddepartamento":ObjectId('65a173694032f6aaad011959')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb2d'), nombre: "María",
+apellidos: "González",
+genero: "F",
+rfc: "EFGH987654ABC32101",
+clabeinterbancaria: "543210987654321098",
+curp: "EFGH987654MFABCXY6",
+telefono: 987654321,
+correo: "maria.gonzalez@example.com",
+direccion: {
+calle: "Avenida 2",
+numext: 456,
+numint: 2,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 54321
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011968'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011947')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb2e'), nombre: "Ana",
+apellidos: "Martínez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "ana.martinez@example.com",
+direccion: {
+calle: "Calle 3",
+numext: 789,
+numint: 3,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 67890
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011947')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb2f'), nombre: "Carl",
+apellidos: "López",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "carlos.lopez@example.com",
+direccion: {
+calle: "Avenida 4",
+numext: 1011,
+numint: 4,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194c')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb30'), nombre: "Elena",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "IJKL567890DEF12345",
+clabeinterbancaria: "678901234567890123",
+curp: "IJKL567890MFDEAXY7",
+telefono: 5551234567,
+correo: "elena.ramirez@example.com",
+direccion: {
+calle: "Calle 5",
+numext: 101,
+numint: 5,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 89012
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194d')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb31'), nombre: "Roberto",
+apellidos: "Díaz",
+genero: "M",
+rfc: "MNOP123456RST78901",
+clabeinterbancaria: "123456789012345678",
+curp: "MNOP123456HMRSAXY8",
+telefono: 5552345678,
+correo: "roberto.diaz@example.com",
+direccion: {
+calle: "Avenida 6",
+numext: 1112,
+numint: 6,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194e')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb32'), nombre: "Alejandro",
+apellidos: "Gómez",
+genero: "M",
+rfc: "WXYZ567890ABCD1234",
+clabeinterbancaria: "345678901234567890",
+curp: "WXYZ567890HMABCDXY9",
+telefono: 5559876543,
+correo: "alejandro.gomez@example.com",
+direccion: {
+calle: "Calle 7",
+numext: 212,
+numint: 7,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01194f')
+},
+{
+_id: ObjectId('65a1cad71a9eb4abf117cb33'), nombre: "Isabel",
+apellidos: "López",
+genero: "F",
+rfc: "QRST123456UVWX7890",
+clabeinterbancaria: "901234567890123456",
+curp: "QRST123456MFUVWXAB1",
+telefono: 5558765432,
+correo: "isabel.lopez@example.com",
+direccion: {
+calle: "Avenida 9",
+numext: 1314,
+numint: 9,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 78901
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011951')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb34'), nombre: "Sofía",
+apellidos: "Rodríguez",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "sofia.rodriguez@example.com",
+direccion: {
+calle: "Calle 11",
+numext: 1516,
+numint: 11,
+colonia: "Colonia Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011953')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb35'), nombre: "Hugo",
+apellidos: "Martín",
+genero: "M",
+rfc: "TUVW123456XYZA7890",
+clabeinterbancaria: "789012345678901234",
+curp: "TUVW123456HMXYZAB3",
+telefono: 5556543210,
+correo: "hugo.martin@example.com",
+direccion: {
+calle: "Avenida 13",
+numext: 1718,
+numint: 13,
+colonia: "Zona Rosa",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011954')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb36'), nombre: "Luisa",
+apellidos: "Fernández",
+genero: "F",
+rfc: "UVWXYZ123456ABCDEF",
+clabeinterbancaria: "123456789012345678",
+curp: "UVWXYZ123456FMABCDE9",
+telefono: 5551122333,
+correo: "luisa.fernandez@example.com",
+direccion: {
+calle: "Calle 15",
+numext: 1920,
+numint: 15,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011958')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb37'), nombre: "Gabriel",
+apellidos: "Ramos",
+genero: "M",
+rfc: "GHIJ678901KLMN2345",
+clabeinterbancaria: "901234567890123456",
+curp: "GHIJ678901HMNKLXY1",
+telefono: 5554455666,
+correo: "gabriel.ramos@example.com",
+direccion: {
+calle: "Avenida 17",
+numext: 2122,
+numint: 17,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011967'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011959')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb38'), nombre: "Daniel",
+apellidos: "García",
+genero: "M",
+rfc: "DEFG123456HIJK7890",
+clabeinterbancaria: "987654321098765432",
+curp: "DEFG123456HMJKLXY3",
+telefono: 5559876543,
+correo: "daniel.garcia@example.com",
+direccion: {
+calle: "Calle 19",
+numext: 2324,
+numint: 19,
+colonia: "Polanco",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011958')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb39'), nombre: "Laura",
+apellidos: "Hernández",
+genero: "F",
+rfc: "LMNO567890PQRS1234",
+clabeinterbancaria: "567890123456789012",
+curp: "LMNO567890FMQRSXY2",
+telefono: 5557654321,
+correo: "laura.hernandez@example.com",
+direccion: {
+calle: "Avenida 21",
+numext: 2526,
+numint: 21,
+colonia: "Roma",
+ciudad: "Ciudad de Mexico",
+codpos: 12345
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011959')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3a'), nombre: "Alejandra",
+apellidos: "López",
+genero: "F",
+rfc: "ALOP123456XYZ78901",
+clabeinterbancaria: "123456789012345678",
+curp: "ALOP123456FMXYZAB4",
+telefono: 5558889999,
+correo: "alejandra.lopez@example.com",
+direccion: {
+calle: "Calle 23",
+numext: 2728,
+numint: 23,
+colonia: "Condesa",
+ciudad: "Ciudad de Mexico",
+codpos: 45670
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad011964'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad01195a')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3b'), nombre: "Adrián",
+apellidos: "Martínez",
+genero: "M",
+rfc: "ADMT123456RSTU7890",
+clabeinterbancaria: "901234567890123456",
+curp: "ADMT123456HMSTUAB2",
+telefono: 5557778888,
+correo: "adrian.martinez@example.com",
+direccion: {
+calle: "Avenida 25",
+numext: 2930,
+numint: 25,
+colonia: "Gabriel Ramos Millan",
+ciudad: "Ciudad de Mexico",
+codpos: 56789
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01196e'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011957')
+
+
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3c'), nombre: "Carlos",
+apellidos: "Sánchez",
+genero: "M",
+rfc: "CSAN123456ABCD7890",
+clabeinterbancaria: "123456789012345678",
+curp: "CSAN123456HMABCDXY1",
+telefono: 5556667777,
+correo: "carlos.sanchez@example.com",
+direccion: {
+calle: "Calle 27",
+numext: 3132,
+numint: 27,
+colonia: "Coyoacan",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01196e'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad01194d')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3d'), nombre: "Laura",
+apellidos: "Gómez",
+genero: "F",
+rfc: "LGOM123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "LGOM123456FMQRSXY3",
+telefono: 5558889999,
+correo: "laura.gomez@example.com",
+direccion: {
+calle: "Avenida 29",
+numext: 3334,
+numint: 29,
+colonia: "Lomas de Chapultepec",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa:ObjectId('65a1844f4032f6aaad01196e'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011952')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3e'), nombre: "Paola",
+apellidos: "Ramírez",
+genero: "F",
+rfc: "PRAM123456UVWX7890",
+clabeinterbancaria: "123456789012345678",
+curp: "PRAM123456FMUVWXY1",
+telefono: 5551234567,
+correo: "paola.ramirez@example.com",
+direccion: {
+calle: "Calle 31",
+numext: 3536,
+numint: 31,
+colonia: "Santa Fe",
+ciudad: "Ciudad de Mexico",
+codpos: 34567
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad01196e'),
+departamentoIddepartamento:ObjectId('65a173694032f6aaad011949')
+},
+{
+
+
+_id: ObjectId('65a1cad71a9eb4abf117cb3f'), nombre: "Javier",
+apellidos: "Martínez",
+genero: "M",
+rfc: "JMAR123456PQRS7890",
+clabeinterbancaria: "901234567890123456",
+curp: "JMAR123456HMQRSXY2",
+telefono: 5552345678,
+correo: "javier.martinez@example.com",
+direccion: {
+calle: "Avenida 33",
+numext: 3738,
+numint: 33,
+colonia: "Napoles",
+ciudad: "Ciudad de Mexico",
+codpos: 45678
+},
+empresaIdempresa: ObjectId('65a1844f4032f6aaad011969'),
+departamentoIddepartamento: ObjectId('65a173694032f6aaad011950')
+}
+
+
+]);
+
+
+
+
+
+

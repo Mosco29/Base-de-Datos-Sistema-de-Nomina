@@ -1,0 +1,15 @@
+db.createCollection("DepartamentoLaboral", {
+validator: {
+$jsonSchema: {
+bsonType: "object",
+title: "schema DepartamentoLaboral",
+required: ['nombredepartamentolaboral', 'GerenteDep'], properties: {
+nombredepartamentolaboral: { bsonType: 'string', minLength: 2,
+maxLength: 25 },
+extenciontelefonicadepartamentolaboral: { bsonType: 'int' },
+GerenteDep: { bsonType: 'string', minLength: 2, maxLength: 60 },
+Descripcion: { bsonType: 'string', minLength: 2, maxLength: 100 },
+}
+}
+}
+});

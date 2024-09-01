@@ -1,0 +1,473 @@
+db.TiempoTrabajo.insertMany([
+{
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb04'), horaLlegada: "08:23:47",
+horaSalida: "16:23:47",
+turno: "M",
+fecha: new Date("2023-08-15"),
+},
+{
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb05'), horaLlegada: "15:42:19",
+horaSalida: "01:42:19",
+turno: "V",
+fecha: new Date("2022-04-27"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb06'), horaLlegada: "02:56:30",
+horaSalida: "11:56:30",
+turno: "M",
+fecha: new Date("2024-11-02"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb07'), horaLlegada: "11:17:55",
+horaSalida: "20:17:55",
+turno: "M",
+fecha: new Date("2023-01-19"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb08'), horaLlegada: "19:34:22",
+horaSalida: "05:34:22",
+turno: "V",
+fecha: new Date("2022-07-08"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb09'), horaLlegada: "04:09:18",
+horaSalida: "14:09:18",
+turno: "M",
+fecha: new Date("2024-01-12"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb0a'),
+horaLlegada: "22:51:12",
+horaSalida: "00:51:12",
+turno: "V",
+fecha: new Date("2023-06-30"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb0b'), horaLlegada: "06:28:40",
+horaSalida: "08:28:40",
+turno: "M",
+fecha: new Date("2022-09-24"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb0c'), horaLlegada: "13:45:03",
+horaSalida: "20:45:03",
+turno: "V",
+fecha: new Date("2022-05-18"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb0d'), horaLlegada: "01:20:59",
+horaSalida: "10:20:59",
+turno: "M",
+fecha: new Date("2023-12-07"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb0e'), horaLlegada: "09:36:28",
+horaSalida: "17:36:28",
+turno: "M",
+fecha: new Date("2022-02-14"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb0f'), horaLlegada: "17:03:14",
+horaSalida: "23:03:14",
+turno: "V",
+fecha: new Date("2023-10-05"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb10'), horaLlegada: "23:49:07",
+horaSalida: "08:49:07",
+turno: "V",
+fecha: new Date("2023-03-28"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb11'), horaLlegada: "07:14:52",
+horaSalida: "10:14:52",
+turno: "M",
+fecha: new Date("2022-06-09"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb12'), horaLlegada: "14:27:41",
+horaSalida: "22:27:41",
+turno: "V",
+fecha: new Date("2024-01-13"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb13'), horaLlegada: "03:08:25",
+horaSalida: "10:08:25",
+turno: "M",
+fecha: new Date("2023-09-11"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb14'), horaLlegada: "12:55:36",
+horaSalida: "19:55:36",
+turno: "V",
+fecha: new Date("2022-11-30"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb15'), horaLlegada: "20:19:43",
+horaSalida: "06:19:43",
+turno: "V",
+fecha: new Date("2022-07-16"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb16'), horaLlegada: "05:31:09",
+horaSalida: "12:31:09",
+turno: "M",
+fecha: new Date("2023-04-03"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb17'), horaLlegada: "21:42:50",
+horaSalida: "06:42:50",
+turno: "V",
+fecha: new Date("2022-08-20"),
+},{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb18'), horaLlegada: "08:23:47",
+horaSalida: "16:23:47",
+turno: "M",
+fecha: new Date("2023-08-15"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb19'), horaLlegada: "15:42:19",
+horaSalida: "01:42:19",
+turno: "V",
+fecha: new Date("2022-04-27"),
+},
+{
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb1a'), horaLlegada: "02:56:30",
+horaSalida: "11:56:30",
+turno: "M",
+fecha: new Date("2024-11-02"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb1b'), horaLlegada: "11:17:55",
+horaSalida: "20:17:55",
+turno: "M",
+fecha: new Date("2023-01-19"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb1c'), horaLlegada: "19:34:22",
+horaSalida: "05:34:22",
+turno: "V",
+fecha: new Date("2022-07-08"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb1d'), horaLlegada: "04:09:18",
+horaSalida: "14:09:18",
+turno: "M",
+fecha: new Date("2024-01-12"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb1e'), horaLlegada: "22:51:12",
+horaSalida: "00:51:12",
+turno: "V",
+fecha: new Date("2023-06-30"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb1f'), horaLlegada: "06:28:40",
+horaSalida: "08:28:40",
+turno: "M",
+fecha: new Date("2022-09-24"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb20'), horaLlegada: "13:45:03",
+horaSalida: "20:45:03",
+turno: "V",
+fecha: new Date("2022-05-18"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb21'), horaLlegada: "01:20:59",
+horaSalida: "10:20:59",
+turno: "M",
+fecha: new Date("2023-12-07"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb22'), horaLlegada: "09:36:28",
+horaSalida: "17:36:28",
+turno: "M",
+fecha: new Date("2022-02-14"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb23'), horaLlegada: "17:03:14",
+horaSalida: "23:03:14",
+turno: "V",
+fecha: new Date("2023-10-05"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb24'), horaLlegada: "23:49:07",
+horaSalida: "08:49:07",
+turno: "V",
+fecha: new Date("2023-03-28"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb25'), horaLlegada: "07:14:52",
+horaSalida: "10:14:52",
+turno: "M",
+fecha: new Date("2022-06-09"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb26'), horaLlegada: "14:27:41",
+horaSalida: "22:27:41",
+turno: "V",
+fecha: new Date("2024-01-13"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb27'), horaLlegada: "03:08:25",
+horaSalida: "10:08:25",
+turno: "M",
+fecha: new Date("2023-09-11"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb28'), horaLlegada: "12:55:36",
+horaSalida: "19:55:36",
+turno: "V",
+fecha: new Date("2022-11-30"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb29'), horaLlegada: "20:19:43",
+horaSalida: "06:19:43",
+turno: "V",
+fecha: new Date("2022-07-16"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2a'), horaLlegada: "05:31:09",
+horaSalida: "12:31:09",
+turno: "M",
+fecha: new Date("2023-04-03"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2b'), horaLlegada: "21:42:50",
+horaSalida: "06:42:50",
+turno: "V",
+fecha: new Date("2022-08-20"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2c'), horaLlegada: "08:23:47",
+horaSalida: "16:23:47",
+turno: "M",
+fecha: new Date("2023-08-15"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb2d'), horaLlegada: "15:42:19",
+horaSalida: "01:42:19",
+turno: "V",
+fecha: new Date("2022-04-27"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb2f'), horaLlegada: "02:56:30",
+horaSalida: "11:56:30",
+turno: "M",
+fecha: new Date("2024-11-02"),
+},
+{
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb30'), horaLlegada: "11:17:55",
+horaSalida: "20:17:55",
+turno: "M",
+fecha: new Date("2023-01-19"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb31'), horaLlegada: "19:34:22",
+horaSalida: "05:34:22",
+turno: "V",
+fecha: new Date("2022-07-08"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb32'), horaLlegada: "04:09:18",
+horaSalida: "14:09:18",
+turno: "M",
+fecha: new Date("2024-01-12"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb33'), horaLlegada: "22:51:12",
+horaSalida: "00:51:12",
+turno: "V",
+fecha: new Date("2023-06-30"),
+},
+{
+
+
+empleado_Idempleado:ObjectId('65a1cad71a9eb4abf117cb34'), horaLlegada: "06:28:40",
+horaSalida: "08:28:40",
+turno: "M",
+fecha: new Date("2022-09-24"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb35'), horaLlegada: "13:45:03",
+horaSalida: "20:45:03",
+turno: "V",
+fecha: new Date("2022-05-18"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb36'), horaLlegada: "01:20:59",
+horaSalida: "10:20:59",
+turno: "M",
+fecha: new Date("2023-12-07"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb37'), horaLlegada: "09:36:28",
+horaSalida: "17:36:28",
+turno: "M",
+fecha: new Date("2022-02-14"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb38'), horaLlegada: "17:03:14",
+horaSalida: "23:03:14",
+turno: "V",
+fecha: new Date("2023-10-05"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb39'), horaLlegada: "23:49:07",
+horaSalida: "08:49:07",
+turno: "V",
+fecha: new Date("2023-03-28"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3a'), horaLlegada: "07:14:52",
+horaSalida: "10:14:52",
+turno: "M",
+fecha: new Date("2022-06-09"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3b'), horaLlegada: "14:27:41",
+horaSalida: "22:27:41",
+turno: "V",
+fecha: new Date("2024-01-13"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2e'), horaLlegada: "03:08:25",
+horaSalida: "10:08:25",
+turno: "M",
+fecha: new Date("2023-09-11"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3c'), horaLlegada: "12:55:36",
+horaSalida: "19:55:36",
+turno: "V",
+fecha: new Date("2022-11-30"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3d'), horaLlegada: "20:19:43",
+horaSalida: "06:19:43",
+turno: "V",
+fecha: new Date("2022-07-16"),
+},
+{
+
+
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3e'), horaLlegada: "05:31:09",
+horaSalida: "12:31:09",
+turno: "M",
+fecha: new Date("2023-04-03"),
+},
+{
+empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb3f'),
+horaLlegada: "21:42:50",
+horaSalida: "06:42:50",
+turno: "V",
+fecha: new Date("2022-08-20"),
+}
+]);

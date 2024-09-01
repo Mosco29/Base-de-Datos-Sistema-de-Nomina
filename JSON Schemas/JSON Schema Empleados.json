@@ -1,0 +1,102 @@
+ db.createCollection("Empleado", {
+validator: {
+$jsonSchema: {
+bsonType: 'object',
+title: 'schema Empleado', required: [
+'nombre',
+'rfc',
+'genero',
+'clabeinterbancaria', 'empresaIdempresa',
+'departamentoIddepartamento'
+],
+properties: {
+nombre: {
+bsonType: 'string', minLength: 2,
+maxLength: 25
+},
+apellidos: {
+bsonType: 'string', minLength: 2,
+maxLength: 25
+},
+genero: {
+bsonType: 'string', 'enum': [
+'M',
+'F', 'O'
+]
+},
+rfc: {
+bsonType: 'string'
+},
+nss: {
+
+bsonType: 'string'
+},
+clabeinterbancaria: {
+bsonType: 'string'
+},
+curp: {
+bsonType: 'string'
+},
+telefono: {
+bsonType: 'number'
+},
+correo: {
+bsonType: 'string'
+},
+direccion: {
+bsonType: 'object', required: [
+'calle',
+'numext', 'colonia', 'ciudad', 'codpos'
+],
+properties: {
+calle: {
+bsonType: 'string', minLength: 2,
+maxLength: 25
+},
+numext: {
+bsonType: 'int'
+},
+numint: {
+bsonType: 'int'
+},
+colonia: {
+bsonType: 'string', minLength: 2,
+maxLength: 25
+},
+ciudad: {
+bsonType: 'string',
+
+minLength: 2,
+maxLength: 25
+},
+codpos: {
+bsonType: 'int'
+}
+}
+},
+empresaIdempresa: {
+bsonType: 'objectId'
+},
+departamentoIddepartamento: {
+bsonType: 'objectId'
+}
+}
+}
+}
+});
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+
+

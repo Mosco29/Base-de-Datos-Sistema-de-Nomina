@@ -1,0 +1,490 @@
+db.Pagos.insertMany([
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-01-10"), SalarioEmpMes: 15000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 200,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195b'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb04')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-01-15"), SalarioEmpMes: 18000,
+MetodoPago: "Cheque Corporativo",
+PagoBonif: 100,
+MontoMultas: 50,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad01195c'),
+Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb05')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-02-05"), SalarioEmpMes: 12000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 150,
+MontoMultas: 100,
+Empresa_Idempresa: ObjectId( '65a1844f4032f6aaad01195c' ), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb06')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-02-15"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 75,
+MontoMultas: 0,
+Empresa_Idempresa: ObjectId( '65a1844f4032f6aaad01195c' ), Empleado_Idempleado: ObjectId( '65a1cad71a9eb4abf117cb07')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-03-08"), SalarioEmpMes: 18000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 120,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId( '65a1844f4032f6aaad01195d'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb08' )
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-03-20"), SalarioEmpMes: 20000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 90,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195d'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb09')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-04-05"), SalarioEmpMes: 16000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 180,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195d'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0a')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-04-15"), SalarioEmpMes: 21000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0b')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-05-07"), SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0c')
+},
+{
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-05-20"), SalarioEmpMes: 23000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 100,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0d')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-06-10"), SalarioEmpMes: 20000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 120,
+MontoMultas: 30,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01195f'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0e')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-06-22"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 45,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011960'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb0f')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-07-05"), SalarioEmpMes: 21000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 20,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011960'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb10')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-07-18"), SalarioEmpMes: 25000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 100,
+MontoMultas: 60,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011960'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb11')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-08-10"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 120,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011960'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb12')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-08-22"), SalarioEmpMes: 20000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 90,
+MontoMultas: 40,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011961'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb13')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-09-05"), SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 140,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011961'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb14')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-09-18"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011961'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb15')
+},
+{
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-10-10"), SalarioEmpMes: 21000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 130,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011962'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb16')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-10-22"), SalarioEmpMes: 24000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 90,
+MontoMultas: 35,
+Empresa_Idempresa:	ObjectId(), Empleado_Idempleado:	ObjectId()
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-01-10"), SalarioEmpMes: 15000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 200,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011962'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb17')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-01-15"), SalarioEmpMes: 18000,
+MetodoPago: "Cheque Corporativo",
+PagoBonif: 100,
+MontoMultas: 50,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011962'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb18')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-02-05"), SalarioEmpMes: 12000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 150,
+MontoMultas: 100,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011963'),
+Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb19')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-02-15"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 75,
+MontoMultas: 0,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011963'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb1a')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-03-08"), SalarioEmpMes: 18000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 120,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011963'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb1b')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-03-20"), SalarioEmpMes: 20000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 90,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb1c')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-04-05"), SalarioEmpMes: 16000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 180,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196b'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb1e')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-04-15"), SalarioEmpMes: 21000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196b'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb1f')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-05-07"), SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb20')
+},
+{
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-05-20"), SalarioEmpMes: 23000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 100,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011965'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb21')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-06-10"), SalarioEmpMes: 20000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 120,
+MontoMultas: 30,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011965'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb22')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-06-22"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 45,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196b'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb23')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-07-05"), SalarioEmpMes: 21000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 20,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb24')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-07-18"), SalarioEmpMes: 25000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 100,
+MontoMultas: 60,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb25')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-08-10"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 120,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011966'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb26')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-08-22"), SalarioEmpMes: 20000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 90,
+MontoMultas: 40,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011966'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb27')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-09-05"), SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 140,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011966'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb28')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-09-18"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011960'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb29')
+},
+{
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-10-10"), SalarioEmpMes: 21000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 130,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011962'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb2a')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-10-22"), SalarioEmpMes: 24000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 90,
+MontoMultas: 35,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011962'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb2b')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-01-10"), SalarioEmpMes: 15000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 200,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011969'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2c')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-01-15"), SalarioEmpMes: 18000,
+MetodoPago: "Cheque Corporativo",
+PagoBonif: 100,
+MontoMultas: 50,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011968'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2d')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-02-05"), SalarioEmpMes: 12000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 150,
+MontoMultas: 100,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2e')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-02-15"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 75,
+MontoMultas: 0,
+Empresa_Idempresa: ObjectId('65a1844f4032f6aaad011967'),
+Empleado_Idempleado: ObjectId('65a1cad71a9eb4abf117cb2f')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-03-08"), SalarioEmpMes: 18000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 120,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb30')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-03-20"), SalarioEmpMes: 20000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 90,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb31')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-04-05"), SalarioEmpMes: 16000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 180,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb32')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-04-15"), SalarioEmpMes: 21000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb33')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-05-07"), SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 0,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb34')
+},
+{
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-05-20"), SalarioEmpMes: 23000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 100,
+MontoMultas: 75,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb35')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-06-10"), SalarioEmpMes: 20000,
+MetodoPago: "Depósito Bancario",
+PagoBonif: 120,
+MontoMultas: 30,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb36')
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-06-22"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 80,
+MontoMultas: 45,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011967'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb37')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-07-05"), SalarioEmpMes: 21000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 150,
+MontoMultas: 20,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb38')
+},
+{
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-07-18"), SalarioEmpMes: 25000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 100,
+MontoMultas: 60,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb39')
+
+},
+{
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-08-10"), SalarioEmpMes: 18000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 120,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011964'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3a')
+},
+{
+TipoPago: "Tarjeta de Débito",
+FechaPago: new Date("2024-08-22"), SalarioEmpMes: 20000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 90,
+MontoMultas: 40,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3b')
+},
+{
+TipoPago: "Cheque",
+FechaPago: new Date("2024-09-05"),
+SalarioEmpMes: 19000,
+MetodoPago: "Cheque Empresarial",
+PagoBonif: 140,
+MontoMultas: 25,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3c')
+
+
+
+TipoPago: "Transferencia",
+FechaPago: new Date("2024-09-18"), SalarioEmpMes: 22000,
+MetodoPago: "Transferencia Bancaria",
+PagoBonif: 80,
+MontoMultas: 50,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3d')
+
+
+
+TipoPago: "Tarjeta de Crédito",
+FechaPago: new Date("2024-10-10"), SalarioEmpMes: 21000,
+MetodoPago: "Pago Electrónico",
+PagoBonif: 130,
+MontoMultas: 15,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad01196e'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3e')
+
+
+
+TipoPago: "Efectivo",
+FechaPago: new Date("2024-10-22"), SalarioEmpMes: 24000,
+MetodoPago: "Pagos en efectivo",
+PagoBonif: 90,
+MontoMultas: 35,
+Empresa_Idempresa:	ObjectId('65a1844f4032f6aaad011969'), Empleado_Idempleado:	ObjectId('65a1cad71a9eb4abf117cb3f')
+}
+]);

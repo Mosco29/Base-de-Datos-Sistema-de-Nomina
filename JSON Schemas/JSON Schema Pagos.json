@@ -1,0 +1,44 @@
+db.createCollection("Pagos", {
+validator: {
+$jsonSchema: {
+bsonType: 'object',
+title: 'schema pagos', required: [
+'TipoPago', 'FechaPago',
+'SalarioEmpMes', 'MetodoPago',
+'Empleado_Idempleado', 'Empresa_Idempresa'
+],
+properties: {
+TipoPago: {
+bsonType: 'string', minLength: 2,
+maxLength: 40
+},
+FechaPago: {
+bsonType: 'date'
+},
+SalarioEmpMes: {
+bsonType: 'int', minimum: 7500,
+maximum: 50000
+},
+MetodoPago: {
+bsonType: 'string', minLength: 2,
+maxLength: 40
+},
+PagoBonif: {
+bsonType: 'int', minimum: 0,
+maximum: 2500
+},
+MontoMultas: {
+bsonType: 'int', minimum: 0,
+maximum: 50000
+},
+Empresa_Idempresa: {
+bsonType: 'objectId'
+},
+Empleado_Idempleado: {
+bsonType: 'objectId'
+}
+}
+}
+}
+});
+

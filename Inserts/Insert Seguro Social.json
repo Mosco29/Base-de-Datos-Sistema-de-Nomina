@@ -1,0 +1,683 @@
+db.SeguroSocial.insertMany([
+
+
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+Discapacidad: "Inmovilidad",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb04'), ContactoConfianza: {
+NombreCompleto: "Maria Gonzalez Perez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3339876543",
+telefono2: "3331234567"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 550,
+Discapacidad: "Visual",
+empleado_idempleado:	ObjectId('65a1cad71a9eb4abf117cb05'), ContactoConfianza: {
+NombreCompleto: "Juan Martinez",
+ciudad: "Ciudad de México",
+colonia: "Centro",
+telefono: "5558765432",
+telefono2: "5552345678"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb06'), ContactoConfianza: {
+NombreCompleto: "Ana Lopez Juarez",
+ciudad: "Monterrey",
+colonia: "San Pedro",
+telefono: "8187654321",
+telefono2: "8181234567"
+}
+},
+{
+
+
+NSS: "45678901233",
+ContribucionSS: 600,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb07'), ContactoConfianza: {
+NombreCompleto: "Carlos Ramirez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2229876543",
+telefono2: "2221234567"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb08'), ContactoConfianza: {
+NombreCompleto: "Luisa Hernandez",
+ciudad: "Guadalajara",
+colonia: "Americana",
+telefono: "3338765432",
+telefono2: "3332345678"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb09'), ContactoConfianza: {
+NombreCompleto: "Sofia Garcia",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6647654321",
+telefono2: "6641234567"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 550,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb0a'), ContactoConfianza: {
+NombreCompleto: "Pablo Castro",
+ciudad: "Querétaro",
+colonia: "Centro",
+telefono: "4426543210",
+telefono2: "4421098765"
+}
+},
+{
+
+
+NSS: "89012345677",
+ContribucionSS: 490,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb0b'), ContactoConfianza: {
+NombreCompleto: "Mariana Perez",
+ciudad: "Mérida",
+colonia: "Montecristo",
+telefono: "9995678901",
+telefono2: "9993456789"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 530,
+Discapacidad: "Motriz",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb0c'), ContactoConfianza: {
+NombreCompleto: "Rosa Martínez",
+ciudad: "Ciudad de México",
+colonia: "Condesa",
+telefono: "5555555555",
+telefono2: "5556666666"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb0d'), ContactoConfianza: {
+NombreCompleto: "Diego Fernandez",
+ciudad: "Monterrey",
+colonia: "Obispado",
+telefono: "8181818181",
+telefono2: "8182828282"
+}
+},
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb0e'), ContactoConfianza: {
+NombreCompleto: "Alejandra Ramirez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3333333333",
+telefono2: "3334444444"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb0f'), ContactoConfianza: {
+NombreCompleto: "Roberto Gonzalez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2222222222",
+telefono2: "2223333333"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb10'), ContactoConfianza: {
+NombreCompleto: "María Fernández",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6646646644",
+telefono2: "6646656655"
+}
+},
+{
+NSS: "45678901233",
+ContribucionSS: 550,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb11'), ContactoConfianza: {
+NombreCompleto: "Laura González",
+ciudad: "Ciudad Juárez",
+colonia: "Centro",
+telefono: "6567878787",
+telefono2: "6569898989"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 490,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb12'), ContactoConfianza: {
+NombreCompleto: "Jorge Sánchez",
+ciudad: "Cancún",
+colonia: "Zona Hotelera",
+telefono: "9981234567",
+telefono2: "9989876543"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 510,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb13'), ContactoConfianza: {
+NombreCompleto: "Isabel Torres",
+ciudad: "Guadalajara", colonia: "Providencia", telefono: "3335555555",
+telefono2: "3337777777"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 530,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb14'), ContactoConfianza: {
+NombreCompleto: "Fernando Méndez",
+ciudad: "Monterrey",
+colonia: "San Jerónimo",
+telefono: "8188765432",
+telefono2: "8189876543"
+}
+},
+{
+NSS: "89012345677",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb15'), ContactoConfianza: {
+NombreCompleto: "Carmen Herrera",
+ciudad: "Querétaro",
+colonia: "Juriquilla",
+telefono: "4425555555",
+telefono2: "4427777777"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb16'), Discapacidad: "Auditiva",
+ContactoConfianza: {
+NombreCompleto: "Rodrigo Gómez",
+ciudad: "Ciudad de México",
+colonia: "Roma",
+telefono: "5554443333",
+telefono2: "5557778888"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb17'), ContactoConfianza: {
+NombreCompleto: "Gabriela Pérez",
+ciudad: "Guadalajara",
+colonia: "Chapalita",
+telefono: "3338889999",
+telefono2: "3331112222"
+}
+},
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+Discapacidad: "Inmovilidad",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb18'), ContactoConfianza: {
+NombreCompleto: "Maria Gonzalez Perez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3339876543",
+telefono2: "3331234567"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 550,
+Discapacidad: "Visual",
+empleado_idempleado:	ObjectId('65a1cad71a9eb4abf117cb19'), ContactoConfianza: {
+NombreCompleto: "Juan Martinez",
+ciudad: "Ciudad de México",
+colonia: "Centro",
+telefono: "5558765432",
+telefono2: "5552345678"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1a'), ContactoConfianza: {
+NombreCompleto: "Ana Lopez Juarez",
+ciudad: "Monterrey",
+colonia: "San Pedro",
+telefono: "8187654321",
+telefono2: "8181234567"
+}
+},
+{
+
+
+NSS: "45678901233",
+ContribucionSS: 600,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1b'), ContactoConfianza: {
+NombreCompleto: "Carlos Ramirez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2229876543",
+telefono2: "2221234567"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1c'), ContactoConfianza: {
+NombreCompleto: "Luisa Hernandez",
+ciudad: "Guadalajara",
+colonia: "Americana",
+telefono: "3338765432",
+telefono2: "3332345678"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1d'), ContactoConfianza: {
+NombreCompleto: "Sofia Garcia",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6647654321",
+telefono2: "6641234567"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 550,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1e'), ContactoConfianza: {
+NombreCompleto: "Pablo Castro",
+ciudad: "Querétaro",
+colonia: "Centro",
+telefono: "4426543210",
+telefono2: "4421098765"
+}
+},
+{
+NSS: "89012345677",
+ContribucionSS: 490,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb1f'), ContactoConfianza: {
+NombreCompleto: "Mariana Perez",
+ciudad: "Mérida",
+colonia: "Montecristo",
+telefono: "9995678901",
+telefono2: "9993456789"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 530,
+Discapacidad: "Motriz",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb20'), ContactoConfianza: {
+NombreCompleto: "Rosa Martínez",
+ciudad: "Ciudad de México",
+colonia: "Condesa",
+telefono: "5555555555",
+telefono2: "5556666666"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb21'), ContactoConfianza: {
+NombreCompleto: "Diego Fernandez",
+ciudad: "Monterrey",
+colonia: "Obispado",
+telefono: "8181818181",
+telefono2: "8182828282"
+}
+},
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb22'),
+ContactoConfianza: {
+NombreCompleto: "Alejandra Ramirez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3333333333",
+telefono2: "3334444444"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb23'), ContactoConfianza: {
+NombreCompleto: "Roberto Gonzalez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2222222222",
+telefono2: "2223333333"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb24'), ContactoConfianza: {
+NombreCompleto: "María Fernández",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6646646644",
+telefono2: "6646656655"
+}
+},
+{
+NSS: "45678901233",
+ContribucionSS: 550,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb25'), ContactoConfianza: {
+NombreCompleto: "Laura González",
+ciudad: "Ciudad Juárez",
+colonia: "Centro",
+telefono: "6567878787",
+telefono2: "6569898989"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 490,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb26'), ContactoConfianza: {
+NombreCompleto: "Jorge Sánchez",
+ciudad: "Cancún",
+colonia: "Zona Hotelera",
+telefono: "9981234567",
+telefono2: "9989876543"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 510,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb27'), ContactoConfianza: {
+NombreCompleto: "Isabel Torres",
+ciudad: "Guadalajara", colonia: "Providencia", telefono: "3335555555",
+telefono2: "3337777777"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 530,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb28'), ContactoConfianza: {
+NombreCompleto: "Fernando Méndez",
+ciudad: "Monterrey",
+colonia: "San Jerónimo",
+telefono: "8188765432",
+telefono2: "8189876543"
+}
+},
+{
+NSS: "89012345677",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb29'),
+ContactoConfianza: {
+NombreCompleto: "Carmen Herrera",
+ciudad: "Querétaro",
+colonia: "Juriquilla",
+telefono: "4425555555",
+telefono2: "4427777777"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb2a'), Discapacidad: "Auditiva",
+ContactoConfianza: {
+NombreCompleto: "Rodrigo Gómez",
+ciudad: "Ciudad de México",
+colonia: "Roma",
+telefono: "5554443333",
+telefono2: "5557778888"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb2b'), ContactoConfianza: {
+NombreCompleto: "Gabriela Pérez",
+ciudad: "Guadalajara",
+colonia: "Chapalita",
+telefono: "3338889999",
+telefono2: "3331112222"
+}
+},
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+Discapacidad: "Inmovilidad",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb2c'), ContactoConfianza: {
+NombreCompleto: "Maria Gonzalez Perez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3339876543",
+telefono2: "3331234567"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 550,
+Discapacidad: "Visual",
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb2d'), ContactoConfianza: {
+NombreCompleto: "Juan Martinez",
+ciudad: "Ciudad de México",
+colonia: "Centro",
+telefono: "5558765432",
+telefono2: "5552345678"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb2e'), ContactoConfianza: {
+NombreCompleto: "Ana Lopez Juarez",
+ciudad: "Monterrey",
+colonia: "San Pedro",
+telefono: "8187654321",
+telefono2: "8181234567"
+}
+},
+{
+
+
+NSS: "45678901233",
+ContribucionSS: 600,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb2f'), ContactoConfianza: {
+NombreCompleto: "Carlos Ramirez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2229876543",
+telefono2: "2221234567"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb30'), ContactoConfianza: {
+NombreCompleto: "Luisa Hernandez",
+ciudad: "Guadalajara",
+colonia: "Americana",
+telefono: "3338765432",
+telefono2: "3332345678"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb31'), ContactoConfianza: {
+NombreCompleto: "Sofia Garcia",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6647654321",
+telefono2: "6641234567"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 550,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb32'), ContactoConfianza: {
+NombreCompleto: "Pablo Castro",
+ciudad: "Querétaro",
+colonia: "Centro",
+telefono: "4426543210",
+telefono2: "4421098765"
+}
+},
+{
+
+
+NSS: "89012345677",
+ContribucionSS: 490,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb33'), ContactoConfianza: {
+NombreCompleto: "Mariana Perez",
+ciudad: "Mérida",
+colonia: "Montecristo",
+telefono: "9995678901",
+telefono2: "9993456789"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 530,
+Discapacidad: "Motriz",
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb34'), ContactoConfianza: {
+NombreCompleto: "Rosa Martínez",
+ciudad: "Ciudad de México",
+colonia: "Condesa",
+telefono: "5555555555",
+telefono2: "5556666666"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado: ObjectId('65a1cad71a9eb4abf117cb36'), ContactoConfianza: {
+NombreCompleto: "Diego Fernandez",
+ciudad: "Monterrey",
+colonia: "Obispado",
+telefono: "8181818181",
+telefono2: "8182828282"
+}
+},
+{
+NSS: "12345678900",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb35'), ContactoConfianza: {
+NombreCompleto: "Alejandra Ramirez",
+ciudad: "Guadalajara",
+colonia: "Lazaro",
+telefono: "3333333333",
+telefono2: "3334444444"
+}
+},
+{
+NSS: "23456789011",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb37'), ContactoConfianza: {
+NombreCompleto: "Roberto Gonzalez",
+ciudad: "Puebla",
+colonia: "La Paz",
+telefono: "2222222222",
+telefono2: "2223333333"
+}
+},
+{
+NSS: "34567890122",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb38'), ContactoConfianza: {
+NombreCompleto: "María Fernández",
+ciudad: "Tijuana",
+colonia: "Zona Norte",
+telefono: "6646646644",
+telefono2: "6646656655"
+}
+},
+{
+NSS: "45678901233",
+ContribucionSS: 550,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb39'), ContactoConfianza: {
+NombreCompleto: "Laura González",
+ciudad: "Ciudad Juárez",
+colonia: "Centro",
+telefono: "6567878787",
+telefono2: "6569898989"
+}
+},
+{
+NSS: "56789012344",
+ContribucionSS: 490,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3a'),
+ContactoConfianza: {
+NombreCompleto: "Jorge Sánchez",
+ciudad: "Cancún",
+colonia: "Zona Hotelera",
+telefono: "9981234567",
+telefono2: "9989876543"
+}
+},
+{
+NSS: "67890123455",
+ContribucionSS: 510,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3b'), ContactoConfianza: {
+NombreCompleto: "Isabel Torres",
+ciudad: "Guadalajara", colonia: "Providencia", telefono: "3335555555",
+telefono2: "3337777777"
+}
+},
+{
+NSS: "78901234566",
+ContribucionSS: 530,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3c'), ContactoConfianza: {
+NombreCompleto: "Fernando Méndez",
+ciudad: "Monterrey",
+colonia: "San Jerónimo",
+telefono: "8188765432",
+telefono2: "8189876543"
+}
+},
+{
+NSS: "89012345677",
+ContribucionSS: 500,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3d'), ContactoConfianza: {
+NombreCompleto: "Carmen Herrera",
+ciudad: "Querétaro",
+colonia: "Juriquilla",
+telefono: "4425555555",
+telefono2: "4427777777"
+}
+},
+{
+NSS: "90123456788",
+ContribucionSS: 520,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3e'), Discapacidad: "Auditiva",
+ContactoConfianza: {
+NombreCompleto: "Rodrigo Gómez",
+ciudad: "Ciudad de México",
+colonia: "Roma",
+telefono: "5554443333",
+telefono2: "5557778888"
+}
+},
+{
+NSS: "01234567899",
+ContribucionSS: 480,
+empleado_idempleado:ObjectId('65a1cad71a9eb4abf117cb3f'), ContactoConfianza: {
+NombreCompleto: "Gabriela Pérez",
+ciudad: "Guadalajara",
+colonia: "Chapalita",
+telefono: "3338889999",
+telefono2: "3331112222"
+}
+},
+]);

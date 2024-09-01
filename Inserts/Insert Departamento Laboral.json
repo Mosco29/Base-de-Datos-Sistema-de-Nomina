@@ -1,0 +1,121 @@
+db.DepartamentoLaboral.insertMany([
+{
+_id: ObjectId('65a173694032f6aaad011947'),
+nombredepartamentolaboral: "Recursos Humanos",
+extenciontelefonicadepartamentolaboral: 101,
+GerenteDep: "Ana García",
+Descripcion: "Gestión del talento humano y desarrollo organizacional"
+},
+{
+_id: ObjectId('65a173694032f6aaad011948'), nombredepartamentolaboral: "Marketing",
+extenciontelefonicadepartamentolaboral: 205,
+GerenteDep: "Carlos Martínez",
+Descripcion: "Estrategias de promoción y publicidad de la empresa"
+},
+{
+_id: ObjectId('65a173694032f6aaad011949'),
+nombredepartamentolaboral: "Desarrollo de Producto",
+extenciontelefonicadepartamentolaboral: 306,
+GerenteDep: "Laura Rodríguez",
+Descripcion: "Creación y mejora de los productos de la empresa"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194a'),
+nombredepartamentolaboral: "Soporte Técnico", extenciontelefonicadepartamentolaboral: 410, GerenteDep: "Javier López",
+Descripcion: "Asistencia técnica a clientes y usuarios"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194b'), nombredepartamentolaboral: "Finanzas",
+extenciontelefonicadepartamentolaboral: 520,
+GerenteDep: "María Hernández",
+Descripcion: "Gestión de movimientos financieros y contabilidad"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194c'), nombredepartamentolaboral: "Ventas",
+extenciontelefonicadepartamentolaboral: 600,
+GerenteDep: "Roberto Gómez",
+Descripcion: "Responsable de las ventas y relaciones con clientes"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194d'), nombredepartamentolaboral: "IT",
+GerenteDep: "Sara Ramírez",
+Descripcion: "Gestión y mantenimiento de la infraestructura tecnológica"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194e'), nombredepartamentolaboral: "Logística",
+GerenteDep: "Juan Pérez",
+Descripcion: "Organización y gestión de la cadena de suministro"
+},
+{
+_id: ObjectId('65a173694032f6aaad01194f'),
+nombredepartamentolaboral: "Comunicaciones", extenciontelefonicadepartamentolaboral: 910, GerenteDep: "Luisa Navarro",
+Descripcion: "Gestión de la comunicación interna y externa"
+},
+{
+_id: ObjectId('65a173694032f6aaad011950'), nombredepartamentolaboral: "Calidad",
+GerenteDep: "Diego Torres",
+Descripcion: "Aseguramiento y control de calidad de productos y servicios"
+},
+{
+_id: ObjectId('65a173694032f6aaad011951'), nombredepartamentolaboral: "Legal",
+extenciontelefonicadepartamentolaboral: 111,
+GerenteDep: "Gabriela Martínez",
+Descripcion: "Asesoramiento legal y cumplimiento normativo"
+},
+{
+_id: ObjectId('65a173694032f6aaad011952'),
+nombredepartamentolaboral: "Recursos Creativos",
+GerenteDep: "Elena Díaz",
+Descripcion: "Desarrollo de contenido creativo y diseño"
+},
+{
+_id: ObjectId('65a173694032f6aaad011953'), nombredepartamentolaboral: "Investigación", GerenteDep: "Miguel Sánchez",
+Descripcion: "Investigación y desarrollo de nuevos proyectos"
+},
+{
+_id: ObjectId('65a173694032f6aaad011954'),
+nombredepartamentolaboral: "Servicio al Cliente",
+extenciontelefonicadepartamentolaboral: 714,
+GerenteDep: "Patricia Torres",
+Descripcion: "Atención y soporte a los clientes"
+},
+{
+_id: ObjectId('65a173694032f6aaad011955'),
+nombredepartamentolaboral: "Gestión de Proyectos",
+GerenteDep: "Ricardo Ramírez",
+Descripcion: "Planificación y gestión de proyectos internos"
+},
+{
+_id: ObjectId('65a173694032f6aaad011956'), nombredepartamentolaboral: "Planificación",
+extenciontelefonicadepartamentolaboral: 800,
+GerenteDep: "Alejandro Gutiérrez",
+Descripcion: "Elaboración y seguimiento de estrategias empresariales"
+},
+{
+_id: ObjectId('65a173694032f6aaad011957'),
+nombredepartamentolaboral: "Desarrollo Sostenible",
+GerenteDep: "Carmen Morales",
+Descripcion: "Implementación de prácticas sostenibles en la empresa"
+},
+{
+_id: ObjectId('65a173694032f6aaad011958'),
+nombredepartamentolaboral: "Asuntos Públicos",
+extenciontelefonicadepartamentolaboral: 918,
+GerenteDep: "Jorge Castro"
+},
+{
+_id: ObjectId('65a173694032f6aaad011959'), nombredepartamentolaboral: "Innovación",
+extenciontelefonicadepartamentolaboral: 519,
+GerenteDep: "Fernanda Ruiz",
+Descripcion: "Fomento de la innovación en procesos y productos"
+},
+{
+_id: ObjectId('65a173694032f6aaad01195a'),
+nombredepartamentolaboral: "Talent Acquisition",
+extenciontelefonicadepartamentolaboral: 620,
+GerenteDep: "Diego López",
+Descripcion: "Adquisición de talento y reclutamiento de personal"
+}
+]);
+
+

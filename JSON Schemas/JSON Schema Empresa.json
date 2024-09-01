@@ -1,0 +1,70 @@
+db.createCollection("Empresa", {
+validator: {
+$jsonSchema: {
+bsonType: 'object',
+title: 'schema empresa', required: [
+'nombreEmpresa',
+'numeroDeIdentificacion', 'direccionEmpresa',
+'telefonoEmpresa', 'ingresosMes',
+'gastosMes',
+],
+properties: {
+nombreEmpresa: {
+bsonType: 'string', minLength: 2,
+maxLength: 100
+},
+numeroDeIdentificacion: {
+bsonType: 'number'
+},
+telefonoEmpresa: {
+bsonType: 'string', minLength: 10,
+maxLength: 10
+},
+ingresosMes: {
+bsonType: 'number'
+},
+gastosMes: {
+bsonType: 'number'
+},
+direccionEmpresa: {
+bsonType: 'object', required: [
+'calle',
+'numext', 'colonia', 'ciudad', 'codpos'
+],
+properties: {
+calle: {
+bsonType: 'string', minLength: 2,
+maxLength: 100
+},
+numext: {
+bsonType: 'number'
+},
+numint: {
+bsonType: 'number'
+},
+colonia: {
+bsonType: 'string', minLength: 2,
+maxLength: 50
+},
+ciudad: {
+bsonType: 'string', minLength: 2,
+maxLength: 50
+},
+codpos: {
+bsonType: 'string', minLength: 5,
+maxLength: 5
+}
+}
+},
+departamento_iddepartamento: {
+bsonType: "array",
+items: {
+bsonType: "objectId"
+}
+},
+}
+}
+}
+});
+
+

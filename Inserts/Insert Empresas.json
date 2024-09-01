@@ -1,0 +1,350 @@
+db.Empresa.insertMany([
+{
+_id: ObjectId('65a1844f4032f6aaad01195b'), nombreEmpresa: "Microsoft Corp",
+numeroDeIdentificacion: 695,
+telefonoEmpresa: "8374926158",
+ingresosMes: 36775,
+gastosMes: 65601,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad011953'), ObjectId('65a173694032f6aaad011954'), ObjectId('65a173694032f6aaad011955'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad011959'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "MSFT",
+numext: 19,
+numint: 1,
+colonia: "Tokio", ciudad: "Japon", codpos: "87423"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad01195c'), nombreEmpresa: "Apple Inc",
+numeroDeIdentificacion: 676,
+telefonoEmpresa: "5041729386",
+ingresosMes: 18118,
+gastosMes: 16214,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad011955'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad011959'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "AAPL",
+numext: 73,
+numint: 2,
+colonia: "Istanbul",
+ciudad: "Turquia",
+codpos: "56981"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad01195d'), nombreEmpresa: "Amazoncom Inc",
+numeroDeIdentificacion: 334,
+telefonoEmpresa: "6298475130",
+ingresosMes: 14524,
+gastosMes: 15040,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011954'),
+ObjectId('65a173694032f6aaad011955'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011957')
+],
+direccionEmpresa: {
+calle: "AMZN",
+numext: 67,
+numint: 3,
+colonia: "Sydney",
+ciudad: "Australia",
+codpos: "73246"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad01195e'), nombreEmpresa: "Nvidia Corp",
+numeroDeIdentificacion: 301,
+telefonoEmpresa: "1859372640",
+ingresosMes: 49097,
+gastosMes: 56460,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "NVDA",
+numext: 99,
+numint: 4,
+colonia: "Buenos Aires",
+ciudad: "Argentina",
+codpos: "61897"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad01195f'), nombreEmpresa: "Alphabet Inc",
+numeroDeIdentificacion: 205,
+telefonoEmpresa: "7638291547",
+ingresosMes: 13573,
+gastosMes: 13736,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad011959'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "GOOGL",
+numext: 66,
+numint: 5,
+colonia: "Vancouver",
+ciudad: "Canada",
+codpos: "30574"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011960'), nombreEmpresa: "Meta Platforms, Inc",
+numeroDeIdentificacion: 196,
+telefonoEmpresa: "4925618370",
+ingresosMes: 35195,
+gastosMes: 16894,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad011953'), ObjectId('65a173694032f6aaad011954')
+],
+direccionEmpresa: {
+calle: "META",
+numext: 83,
+numint: 6,
+colonia: "Moscu", ciudad: "Rusia", codpos: "49128"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad011961'), nombreEmpresa: "Berkshire Hathaway",
+numeroDeIdentificacion: 168,
+telefonoEmpresa: "3087159246",
+ingresosMes: 36559,
+gastosMes: 5967,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad011953'), ObjectId('65a173694032f6aaad011954'), ObjectId('65a173694032f6aaad011955'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad011958')
+],
+direccionEmpresa: {
+calle: "BRKB",
+numext: 91,
+numint: 7,
+colonia: "Cairo", ciudad: "Egipto", codpos: "92653"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011962'), nombreEmpresa: "Tesla, Inc",
+numeroDeIdentificacion: 167,
+telefonoEmpresa: "6158204793",
+ingresosMes: 23749,
+gastosMes: 15671,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "TSLA",
+numext: 44,
+numint: 8,
+colonia: "Mumbai",
+ciudad: "India",
+codpos: "40719"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad011963'),
+nombreEmpresa: "Unitedhealth Group Incorporated",
+numeroDeIdentificacion: 128,
+telefonoEmpresa: "9742165830",
+ingresosMes: 53738,
+gastosMes: 13863,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "UNH",
+numext: 84,
+numint: 9,
+colonia: "Estocolmo",
+ciudad: "Suecia",
+codpos: "58342"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011964'), nombreEmpresa: "Jpmorgan Chase & Co",
+numeroDeIdentificacion: 126,
+telefonoEmpresa: "7263584901",
+ingresosMes: 17227,
+gastosMes: 28899,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad011959'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "JPM",
+numext: 86,
+numint: 10,
+colonia: "Ciudad de Mexico",
+ciudad: "Mexico",
+codpos: "21567"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011965'), nombreEmpresa: "Eli Lilly & Co",
+numeroDeIdentificacion: 124,
+telefonoEmpresa: "1830592746",
+ingresosMes: 61855,
+gastosMes: 33662,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194b')
+],
+direccionEmpresa: {
+calle: "LLY",
+numext: 45,
+numint: 11,
+colonia: "Seoul",
+ciudad: "Corea del Sur",
+codpos: "74980"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011966'), nombreEmpresa: "Boradcom Inc",
+numeroDeIdentificacion: 117,
+telefonoEmpresa: "5402168379",
+ingresosMes: 104928,
+gastosMes: 47406,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad011954'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "AVGO",
+numext: 27,
+numint: 12,
+colonia: "Nairobi",
+ciudad: "Kenia",
+codpos: "36215"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad011967'), nombreEmpresa: "Visa Inc",
+numeroDeIdentificacion: 105,
+telefonoEmpresa: "9074326158",
+ingresosMes: 25969,
+gastosMes: 53123,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011953'), ObjectId('65a173694032f6aaad011954'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad011959')
+],
+direccionEmpresa: {
+calle: "Volvo",
+numext: 8,
+numint: 13,
+colonia: "Munich", ciudad: "Alemania", codpos: "85439"
+}
+},
+{
+_id:ObjectId('65a1844f4032f6aaad011968'), nombreEmpresa: "Exxon Mobil Corporation", numeroDeIdentificacion: 104,
+telefonoEmpresa: "3628491750",
+ingresosMes: 10263,
+gastosMes: 5009,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011947'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011955'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad01195a')
+],
+direccionEmpresa: {
+calle: "XOM",
+numext: 31,
+numint: 14,
+colonia: "Rio de Janeiro",
+ciudad: "Brasil",
+codpos: "17628"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad011969'), nombreEmpresa: "Johnson & Johnson",
+numeroDeIdentificacion: 98,
+telefonoEmpresa: "8590312746",
+ingresosMes: 16113,
+gastosMes: 40912,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011959'),
+],
+direccionEmpresa: {
+calle: "JNJ",
+numext: 50,
+numint: 15,
+colonia: "Bangkok", ciudad: "Tailandia", codpos: "69047"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad01196a'), nombreEmpresa: "Procter & Gamble Company", numeroDeIdentificacion: 89,
+telefonoEmpresa: "2475931860",
+ingresosMes: 14742,
+gastosMes: 4689,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011950'), ObjectId('65a173694032f6aaad011954')
+],
+direccionEmpresa: {
+calle: "PG",
+numext: 23,
+numint: 16,
+colonia: "Amsterdam",
+ciudad: "Paises Bajos",
+codpos: "53082"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad01196b'), nombreEmpresa: "Mastercard Incorporated", numeroDeIdentificacion: 88,
+telefonoEmpresa: "6109324875",
+ingresosMes: 41942,
+gastosMes: 11080,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad01194a'), ObjectId('65a173694032f6aaad01195a'), ObjectId('65a173694032f6aaad011958'), ObjectId('65a173694032f6aaad01194f'), ObjectId('65a173694032f6aaad011955')
+],
+direccionEmpresa: {
+calle: "MA",
+numext: 35,
+numint: 17,
+colonia: "Reykjavik",
+ciudad: "Islandia",
+codpos: "29475"
+}
+},
+{
+_id:	ObjectId('65a1844f4032f6aaad01196c'), nombreEmpresa: "Home Depot, Inc",
+numeroDeIdentificacion: 86,
+telefonoEmpresa: "4785062193",
+ingresosMes: 34294,
+gastosMes: 4992,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011953'),
+ObjectId('65a173694032f6aaad01194e'), ObjectId('65a173694032f6aaad01194c'), ObjectId('65a173694032f6aaad01194b'), ObjectId('65a173694032f6aaad011950')
+],
+direccionEmpresa: {
+calle: "HD",
+numext: 35,
+numint: 18,
+colonia: "Casablanca",
+ciudad: "Moroco",
+codpos: "81736"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad01196d'), nombreEmpresa: "Merck & Co, Inc",
+numeroDeIdentificacion: 75,
+telefonoEmpresa: "3952846710",
+ingresosMes: 11722,
+gastosMes: 4304,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011951'), ObjectId('65a173694032f6aaad011948'), ObjectId('65a173694032f6aaad011956'), ObjectId('65a173694032f6aaad011959'), ObjectId('65a173694032f6aaad011954')
+],
+direccionEmpresa: {
+calle: "MRK",
+numext: 21,
+numint: 19,
+colonia: "Dallas",
+ciudad: "Estados Unidos",
+codpos: "64391"
+}
+},
+{
+_id: ObjectId('65a1844f4032f6aaad01196e'), nombreEmpresa: "Costco Wholesale Corp",
+numeroDeIdentificacion: 73,
+telefonoEmpresa: "1326875049",
+ingresosMes: 65601,
+gastosMes: 3443,
+departamento_iddepartamento:[
+ObjectId('65a173694032f6aaad011949'), ObjectId('65a173694032f6aaad011952'), ObjectId('65a173694032f6aaad01194d'), ObjectId('65a173694032f6aaad011957'), ObjectId('65a173694032f6aaad011955')
+],
+direccionEmpresa: {
+calle: "COST",
+numext: 66,
+numint: 20,
+colonia: "Lima", ciudad: "Peru", codpos: "10857"
+}
+}
+]);

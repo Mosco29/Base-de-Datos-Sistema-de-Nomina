@@ -1,0 +1,32 @@
+db.createCollection("SeguroSocial", {
+validator: {
+$jsonSchema: {
+bsonType: "object",
+title: "schema SeguroSocial",
+required: ['NSS','ContribucionSS', 'ContactoConfianza'], properties: {
+NSS: { bsonType: 'string', minLength: 11, maxLength: 11 },
+ContribucionSS: { bsonType: 'int' },
+Discapacidad: { bsonType: 'string', minLength: 5, maxLength:
+100 },
+ContactoConfianza: {
+bsonType: 'object',
+required: ['NombreCompleto','ciudad', 'colonia',
+'telefono'],
+properties: {
+NombreCompleto: { bsonType: 'string', minLength: 10,
+maxLength: 80 },
+ciudad: { bsonType: 'string', minLength: 2, maxLength:
+50 },
+colonia: { bsonType: 'string', minLength: 2,
+maxLength: 50 },
+telefono: { bsonType: 'string', minLength: 6,
+maxLength: 25 },
+telefono2: { bsonType: 'string', minLength: 6,
+maxLength: 25 }
+},
+},
+empleado_idempleado: { bsonType: 'objectId' }
+}
+}
+}
+});
